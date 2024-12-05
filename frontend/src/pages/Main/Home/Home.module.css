@@ -1,0 +1,56 @@
+.home {}
+
+.home__title {
+  font-size: 72px;
+  text-align: center;
+}
+
+.home__subtitle {
+  margin-top: 32px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, .5);
+  text-align: center;
+}
+
+.account {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+
+.account__sign-in,
+.account__create {
+  width: 220px;
+  height: 60px;
+  font-size: 22px;
+  border: 1px solid black;
+  border-radius: 32px;
+  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+.account__sign-in:hover,
+.account__create:hover {
+  transform: translateY(-8px);
+  background-color: #808080;
+}
+
+.account__sign-in {
+  background-color: black;
+  color: #fff;
+}
+
+.account__sign-in:hover {
+  /* background-color: #fff; */
+  color: #000;
+}
+
+.account__create {
+  background-color: #fff;
+  color: #000;
+}
+
+.account__create:hover {
+  /* background-color: black; */
+  color: #fff;
+}
